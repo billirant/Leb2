@@ -1,0 +1,68 @@
+body {
+    margin:0 auto;
+    width: 1500px;
+    background-color: #f3ddc1;
+    font-family: "Calibri";
+}
+
+.P_name_contact > div > img {
+    width: 300px;
+    height: 300px;
+}
+
+.P_name_contact {
+    display: flex;
+    margin-left:  0px;
+    margin-right: 0px;
+    margin-top: 30px;
+    border-width: 200px;
+    border-radius: 5px;
+    background-color: #8d773b;
+}
+  
+.P_name_contact > div {
+    margin: 10px;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.P_name_contact > div > img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact {
+    padding-top: 80px;
+}
+.email, .phone {
+    display: flex;
+}
+
+.email > div > h3, .phone > div > h3 {
+    font-size: 30px;
+    margin: 30px;
+}
+.email > div > p, .phone > div > p {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.aboutme {
+    display: block;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 50%; background-color: #fa6705;}
+.css {width: 30%; background-color: #e77c3e;}
+.js {width: 0%; background-color: #f44336;}
+.Electronics {width: 60%; background-color: #f3e034;}
+.Electrical {width: 60%; background-color: #ecf753;}
